@@ -1,5 +1,19 @@
 "# zscaler Test Project "
 
+install:
+
+    git clone git@github.com:velletti/zscaler.git && cd zzscaler
+    
+list content (depending on OS)
+
+    dir 
+
+    or
+
+    ls -lisa
+    
+   
+
 always update local repository First and see lates used version with this commands:
 
     git pull && git describe --tags
