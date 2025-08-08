@@ -18,6 +18,20 @@ always update local repository First and see lates used version with this comman
 
     git pull && git describe --tags
     
+# Testen :
+==============================
+Beispiel: angezeigt wird als letzter test: "t022" 
+
+starte unter DOS eine CMD oder git bash
+und wechsle in das Verzeichnis zscaler unstarte mit test nummer 23 und 5 loops
+
+    looptest.bat 23 5
+
+unter linux:
+
+    ./looptest.sh 23 5
+
+der nächste erhält dann angezeigt t027 
 
 # add a new file
 
