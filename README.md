@@ -2,7 +2,7 @@
 
 install:
 
-    git clone git@github.com:velletti/zscaler.git && cd zzscaler
+    git clone git@github.com:velletti/zscaler.git && cd zscaler
     
 list content (depending on OS)
 
