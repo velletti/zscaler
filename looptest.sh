@@ -7,7 +7,7 @@ generate_random_string() {
 }
 
 # Hauptschleife
-for i in $(seq -f "%03g" 1 3)
+for i in $(seq -f "%03g" 4 100)
 do
     echo "Starte Durchlauf $i"
 
