@@ -31,7 +31,7 @@ do
     echo "Starte Durchlauf $i von $END_NUM"
 
     # Erstelle Testdatei mit zufälligem Inhalt
-    filename="test_${i}.txt"
+    filename="test/test_${i}.txt"
     generate_random_string > "$filename"
     echo "Datei $filename erstellt"
 
