@@ -1,0 +1,15 @@
+In Zeile:1 Zeichen:52
++ [System.Web.Security.Membership]::GeneratePassword(Get-Random -Minimu ...
++                                                    ~
+")" fehlt in einem Methodenaufruf.
+In Zeile:1 Zeichen:52
++ [System.Web.Security.Membership]::GeneratePassword(Get-Random -Minimu ...
++                                                    ~~~~~~~~~~
+Unerwartetes Token "Get-Random" in Ausdruck oder Anweisung.
+In Zeile:1 Zeichen:91
++ ... embership]::GeneratePassword(Get-Random -Minimum 10 -Maximum 4000, 0)
++                                                                         ~
+Unerwartetes Token ")" in Ausdruck oder Anweisung.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingEndParenthesisInMethodCall
+ 
